@@ -259,7 +259,7 @@
         }
         
         function setupDynamicEventListeners() {
-            // Favorite buttons
+            // Favorite buttons 
             document.querySelectorAll('.favorite-btn').forEach(btn => {
   btn.addEventListener('click', async (e) => {
     const { firebaseUser, localUser } = getCurrentAuthState();
