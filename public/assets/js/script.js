@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const currentUser = getCurrentUser();
     const container = document.getElementById('jobs-container');
     const usernameSpan = document.getElementById('username');
-    const API_URL = "https://api.sheety.co/6fd29e47dbc53b9a4eeb9bb859a7f01f/newInternshipJobsData/internshipJobsDataCsv";
+    const API_URL = "https://api.sheety.co/3333c1e1c7776341c6bdbef9be3fc265/copyOfCopyOfInternshipData/internshipJobsDataCsv";
 
 
     let jobs = [];
