@@ -126,7 +126,7 @@ header {
 .internship-btn {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #4F46E5; /* Indigo-600 */
+  background-color: #4e73df; 
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
@@ -137,7 +137,7 @@ header {
 }
 
 .internship-btn:hover {
-  background-color: #4338CA; /* Indigo-700 */
+  background-color: #4e73df; 
   transform: translateY(-2px);
 }
 
@@ -227,7 +227,7 @@ header {
 }
 
 .quiz-nav-button {
-  background-color: #4F46E5; /* matches hero accent color */
+  background-color: #4e73df; /* matches hero accent color */
   color: #ffffff;
   border: none;
   padding: 10px 18px;
@@ -239,7 +239,7 @@ header {
 }
 
 .quiz-nav-button:hover {
-  background-color: #443ce2;
+  background-color: #4e73df;
   transform: scale(1.05);
 }
 .quiz-link a {
@@ -1156,7 +1156,7 @@ body.auth-active::after {
 .input-box input {
   width: 100%;
   padding: 0.75rem 2.5rem 0.75rem 2.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 0.75rem;
   font-size: 1rem;
 }
@@ -1241,7 +1241,7 @@ body.auth-active::after {
 /* Error messages */
 .form-error {
   color: #dc3545;
-  background: #f8d7da;
+  background: #ffffff;
   border-left: 4px solid #dc3545;
   padding: 0.75rem;
   margin-bottom: 1rem;
@@ -1292,7 +1292,7 @@ body.auth-active::after {
 .form-box.register {
   flex: 1;
   max-width: 400px;
-  background-color: #f5ebeb;
+  background-color: #ffffff;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
