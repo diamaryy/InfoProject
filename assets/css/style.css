@@ -100,7 +100,7 @@ header {
 ----------------------------------- */
 .btnLogin-popup {
   padding: 10px 20px;
-  background-color: #4e73df; /* Soft blue, feel free to change */
+  background-color: #4e73df; 
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -118,7 +118,7 @@ header {
 
 .btnLogin-popup:active {
   transform: translateY(0);
-  background-color: #3451a3;
+  background-color: #3b5fc1;
 }
 /* -----------------------------------
  home page internship button
@@ -126,18 +126,18 @@ header {
 .internship-btn {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #4e73df; 
+  background-color: #4e73df; /* Indigo-600 */
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
   text-decoration: none;
   border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .internship-btn:hover {
-  background-color: #4e73df; 
+  background-color: #3b5fc1;
   transform: translateY(-2px);
 }
 
@@ -227,7 +227,7 @@ header {
 }
 
 .quiz-nav-button {
-  background-color: #4e73df; /* matches hero accent color */
+  background-color: #4F46E5; /* matches hero accent color */
   color: #ffffff;
   border: none;
   padding: 10px 18px;
@@ -239,7 +239,7 @@ header {
 }
 
 .quiz-nav-button:hover {
-  background-color: #4e73df;
+  background-color: #443ce2;
   transform: scale(1.05);
 }
 .quiz-link a {
@@ -327,7 +327,7 @@ body.auth-active::after {
   }
 }
 
-/* Optional: apply same to register form */
+
 .form-box.register {
   background-color: #ffffff;
 }
@@ -346,6 +346,10 @@ body.auth-active::after {
 
 .btn {
   margin-top: 20px;
+  background-color: #4e73df;
+}
+.btn:hover{
+  background-color: #3b5fc1;
 }
 
 /* -----------------------------------
@@ -438,8 +442,8 @@ body.auth-active::after {
 
 
 .detail-btn{
-  background: var(--primary-color);
-  color: white;
+  background-color: #4e73df;
+  color:white;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -464,8 +468,8 @@ body.auth-active::after {
 }
 
 .back-btn {
-  background: var(--primary-color);
-  color: white;
+  background-color: #4e73df;
+  color:white;
   border: none;
   padding: 0.5rem 1rem;
   border-radius: 5px;
@@ -479,7 +483,7 @@ body.auth-active::after {
 
 
 .favorite-btn {
-  background: var(--primary-color);
+  background-color: #4e73df;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -489,10 +493,16 @@ body.auth-active::after {
   margin-top: 0.5rem;
   width: 40px;
 }
-
+.favourte-button:hover{
+  background-color: #3b5fc1;
+}
 .favorite-btn.favorited {
   background: var(--accent-color);
 }
+.favorite-btn.favorited:hover{
+  background-color: #3b5fc1;
+}
+
 
 /* -----------------------------------
    Dashboard & Filters
@@ -538,9 +548,7 @@ body.auth-active::after {
   box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
   outline: none;
 }
-:root {
-  --primary-color: #1e3a8a;
-}
+
 
 /* All Jobs View Favorites Take the Quiz buttons */
 .view-toggle {
@@ -558,8 +566,7 @@ body.auth-active::after {
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
   border-radius: 8px;
-  border: 2px solid var(--primary-color);
-  background-color: var(--primary-color);
+  background-color:  #4e73df;
   color: #fff;
   font-weight: 500;
   cursor: pointer;
@@ -571,8 +578,27 @@ body.auth-active::after {
 
 .view-toggle button:hover,
 .view-toggle .quiz-nav-button:hover {
-  background-color: #fff;
-  color: var(--primary-color);
+  background-color: #3b5fc1;
+ 
+}
+.quiz-index-button{
+  all: unset; 
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  background-color:  #4e73df;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  line-height: 1.2;
+}
+.quiz-index-button:hover {
+  background-color: #3b5fc1;
+ 
 }
 /* END all Jobs View Favorites Take the Quiz buttons */
 
@@ -597,7 +623,7 @@ body.auth-active::after {
 }
 
 .header-btn {
-  background: rgba(255, 255, 255, 0.1);
+  background-color:  #4e73df;
   border: 2px solid var(--text-light);
   color: var(--text-light);
   padding: 0.5rem 1rem;
@@ -607,7 +633,7 @@ body.auth-active::after {
 }
 
 .header-btn:hover {
-  background: var(--accent-color);
+  background-color: #3b5fc1;
   border-color: var(--accent-color);
   transform: translateY(-2px);
 }
@@ -748,7 +774,6 @@ body.auth-active::after {
   line-height: 1.7;
 }
 
-
 /* Responsive Tweaks */
 @media (max-width: 768px) {
   .grid-pair,
@@ -785,8 +810,8 @@ body.auth-active::after {
 .full-width-cta button {
   padding: 0.75rem 2rem;
   font-size: 1rem;
-  background: white;
-  color: #1e3a8a;
+  background: #4e73df;
+  color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -794,54 +819,8 @@ body.auth-active::after {
 }
 
 .full-width-cta button:hover {
-  background: #e0e7ff;
+  background: #3b5fc1;
 }
-/* CTA Section */
-/* .full-width-cta {
-  background-color: #1e3a8a;
-  color: white;
-  text-align: center;
-  padding: 4rem 1rem;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.full-width-cta-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.full-width-cta h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.full-width-cta p {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  line-height: 1.6;
-}
-
-.full-width-cta button {
-  padding: 0.75rem 2rem;
-  font-size: 1rem;
-  background: white;
-  color: #1e3a8a;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.full-width-cta button:hover {
-  background-color: #e0e7ff;
-}
- */
-
-   /* Resume */
-/* General Reset & Fonts */
-
 .resume-container {
   padding-top: 39px;
   display: flex;
@@ -1072,7 +1051,7 @@ body.auth-active::after {
 .quiz-submit-btn {
   width: 100%;
   padding: 14px 0;
-  background: linear-gradient(135deg, #007bff, #0056b3);
+  background: #4e73df;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -1083,7 +1062,7 @@ body.auth-active::after {
 }
 
 .quiz-submit-btn:hover {
-  background: linear-gradient(135deg, #0056b3, #004494);
+  background: #3b5fc1;
   transform: translateY(-2px);
 }
 
@@ -1156,7 +1135,7 @@ body.auth-active::after {
 .input-box input {
   width: 100%;
   padding: 0.75rem 2.5rem 0.75rem 2.5rem;
-  border: 1px solid #ffffff;
+  border: 1px solid #ccc;
   border-radius: 0.75rem;
   font-size: 1rem;
 }
@@ -1208,7 +1187,7 @@ body.auth-active::after {
 /* Button */
 .btn {
   width: 100%;
-  background: #007BFF;
+  background: #4e73df;
   border: none;
   padding: 0.75rem;
   border-radius: 0.75rem;
@@ -1219,7 +1198,7 @@ body.auth-active::after {
 }
 
 .btn:hover {
-  background: #0056b3;
+  background: #3b5fc1;
 }
 
 /* Link to login */
@@ -1241,7 +1220,7 @@ body.auth-active::after {
 /* Error messages */
 .form-error {
   color: #dc3545;
-  background: #ffffff;
+  background: #f8d7da;
   border-left: 4px solid #dc3545;
   padding: 0.75rem;
   margin-bottom: 1rem;
@@ -1292,7 +1271,7 @@ body.auth-active::after {
 .form-box.register {
   flex: 1;
   max-width: 400px;
-  background-color: #ffffff;
+  background-color: #f5ebeb;
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
@@ -1350,7 +1329,7 @@ body.auth-active::after {
 .btn {
   width: 100%;
   padding: 0.75rem;
-  background-color: #2b6cb0;
+  background-color: #4e73df;
   color: white;
   border: none;
   border-radius: 0.5rem;
@@ -1359,7 +1338,7 @@ body.auth-active::after {
 }
 
 .btn:hover {
-  background-color: #2c5282;
+  background-color: #3b5fc1;
 }
 
 /* Responsive */
@@ -1609,8 +1588,8 @@ body.auth-active::after {
   width: 100%;
 }
 
-.contact-form button.btn {
-  background-color: #1e3a8a;
+.submit-btn{
+  background-color: #4e73df;
   color: white;
   border: none;
   border-radius: 8px;
@@ -1620,8 +1599,8 @@ body.auth-active::after {
   transition: background-color 0.3s ease;
 }
 
-.contact-form button.btn:hover {
-  background-color: #233c96;
+.submit-btn:hover {
+  background-color: #3b5fc1;
 }
 
 .confirmation-message {
@@ -1669,3 +1648,7 @@ body.auth-active::after {
   line-height: 2.1;
 }
 
+.form-box.register {
+  background-color: #ffffff; /* White background */
+
+}
